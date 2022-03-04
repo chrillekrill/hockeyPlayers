@@ -2,6 +2,7 @@
 const sectionList = document.getElementById('sectionList')
 const sectionNew = document.getElementById('sectionNew')
 const sectionEdit = document.getElementById('sectionEdit')
+const productTableBody = document.getElementById('productTableBody')
 
 const listLink = document.getElementById('listLink')
 const newLink = document.getElementById('newLink')
@@ -26,6 +27,12 @@ newLink.addEventListener("click",()=>{
   listLink.addEventListener("click",()=>{ 
     showSection('sectionList');    
 });
+
+// 
+items = ["Stefan", "Kalle", "Lisa" ] 
+//Loopa den
+// för varje skapa tr, för varje skapa td:s 
+//lägga in den nya tr:n som ett barn till  productTableBody
 
   
 
