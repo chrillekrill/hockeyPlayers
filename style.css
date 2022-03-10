@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+th {
+    font-size: 1.3rem;
+}
+
+th:hover {
+    color:blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button {
+    margin-top: 10px;
+}
